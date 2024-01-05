@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+ 
+    <title>ACE FOODS</title>
+<!--
+    
+TemplateMo 558 Klassy Cafe
+
+https://templatemo.com/tm-558-klassy-cafe
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-klassy-cafe.css">
+
+   
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    </head>
+    <style type="text/css">
+        p{
+            margin-left: 4px;
+        }
+
+        center{
+            margin-left: 15%;
+            margin-right: 15%;
+        
+        }
+
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        }
+
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        }
+
+        tr:hover {
+        background-color: #dddddd;
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container2 {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container2::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container2 {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container2::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+    </style>
+    <body>
+    
+      <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.jpg" width="85" height="100">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">HOME</a></li>
+                            <li class="scroll-to-section"><a href="service.html" class="active">OUR SERVICES</a></li>
+                            <li class="scroll-to-section"><a href="#about">ABOUT US</a></li>
+                            <li class="scroll-to-section"><a href="menu.html">Menu & PRICE</a></li>
+                            <li class="scroll-to-section"><a href="mealplan.html">MEAL PLANS</a></li> 
+                            <li class="submenu">
+                                <a href="javascript:;">MORE</a>
+                                <ul>
+                                    <li><a href="contact.html">CONTACT US</a></li>
+                                    <li><a href="privacypolicy.html">PRIVACY POLICY</a></li>
+                                    <li><a href="health.html">HEALTH & SAFETY</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="login.html">ADMIN LOGIN</a></li>
+                                </ul>
+                            </li>
+                        </ul>        
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    <br><br><br><br><br><br><br><br><br><br>
+      <h2 style="text-align: center;">Our Meal Plan and Policies</h2><br>
+   <center>
+   <p style="text-align: justify;"> AceFoods has the following policies to give you more clarification about our terms and conditions. 
+    When you start taking our services, you agree with our terms and conditions irrespective of the method 
+    of payment or meal plan.</p><br>
+
+<h3 style="color: red;">Meal plans</h3>
+
+<p style="text-align: justify;">At AceFoods our meal plans range from 5 meals to 20 meals plan options. Hence, you can customise the plan 
+according to the number of meals you require. The meal plan prices are calculated according to the number 
+of Tiffins you require and are multiply by the number of days you require for. Payments for all meal plans 
+are in advance to avail the discount. If you start your meal plans in the middle of the week then the 5-meal 
+plan will overlap into the next week. e.g. If you start on Wednesday in the week then the 5-meal plan will 
+start from Wednesday to next week Tuesday (based on Monday to Friday deliveries) to make it easier for you 
+to get food according to the plans you prefer.</p>
+<table>
+  <tr>
+    <th>Meal Plan</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>5 meal-plan</td>
+    <td>This is the minimum plan. If you are planning to order from Monday to Friday, but miss days in between, then the remaining meals will be carried forward to the next week. The maximum period to finish this meal plan is 7 delivery days from the start of your plan. This meal plan offers special discount. This is best plan to check & try our service as you get a discounted rate and can taste a variety of food during the first week.</td>
+  </tr>
+  <tr>
+    <td>8 meal-plan</td>
+    <td>This meal plan is for 8 meals and is designed if you wish to take food 4 days a week. The maximum period to finish this plan is 10 delivery days (i.e. two week considering delivery from Monday to Friday) from the start of your meal plan. The price is already discounted so we do not offer any additional discounts on this plan.</td>
+  </tr>
+  <tr>
+    <td>9 meal-plan</td>
+    <td>This meal plan is for 9 meals and is designed if you wish to take food 3 days a week. The maximum period to finish this plan is 15 delivery days (i.e. three week considering delivery from Monday to Friday) from the start of your meal plan. The price is already discounted, and we do not offer any additional discounts on this plan.</td>
+  </tr>
+  <tr>
+    <td>20 meal-plan</td>
+    <td>This meal plan carries the maximum discount and lasts for 25 delivery days or 5 weeks (if you take food Monday to Friday). The maximum period to finish this contract is 25 delivery days from the start of your plan. We do not offer any refunds once the period ended any dinners pending will not have no cash value. This plan is best for students as you can buy a plan by paying advance and can use this flexibility even if you are having a friends get-together our a house party.</td>
+  </tr>
+</table>
+<br>
+<p style="text-align: justify;">[*Please note that prices outside Cardiff is more than our standard prices and the delivery charges may 
+apply in some areas. Please check before ordering] ** The menu and prices are subject to change at any 
+time without notice</p><br><br></center>
+
+
+
+<div class="timeline">
+    <div class="container2 right">
+        <div class="content">
+          <h2>Tiffin Service Policy</h2>
+            <p>We try to be as flexible as possible for our clients. However, if you have availed a discounted price (our weekly or monthly meal plans), the management reserves the right to charge you for normal price in the event of any cancellation of meal plan or ad hoc order cancellation.</p>
+            <p>Delivery will be within a 2-hour slot. Delivery slots are based on approximate timings and might differ from 30 minutes either before or after the slot based on daily conditions. We aim to deliver within the delivery slot as often as possible. Customers are responsible for food and the place of delivery after the Tiffin has been delivered. We do not carry any responsibility in the event of loss of Tiffin after it has been delivered to the agreed place of delivery.</p>
+        </div>
+      </div>
+    <div class="container2 left">
+      <div class="content">
+        <h2>Flexible Meal Plan Policy</h2>
+        <p>We do understand exceptional circumstances and would accommodate any ad hoc requests for cancellation or change in delivery time. That is why we have designed our meal plans to cater for all kinds of clients respective to their requirements.</p>
+      </div>
+    </div>
+    <div class="container2 right">
+      <div class="content">
+        <h2>Shelf life Policy</h2>
+            <p>AceFoods produces food daily as per the published menu. The menu and prices are subject to change at any time without notice. The food produced has a shelf life of four hours from the time of delivery. We will not be responsible for any food consumed on the next day. It is the customer’s responsibility to store the food carefully (preferably refrigerate) after the delivery is made. We will not be responsible for any damage after the delivery has occurred.
+        </div>
+    </div>
+    <div class="container2 left">
+      <div class="content">
+        <h2>Food allergy</h2>
+            <p>If you suffer from a food allergy or intolerance, please check with us before placing your order. Ingredients can occasionally be substituted or changed so please review the allergy information provided. Every care is taken to avoid any cross contamination when processing an order. Food served may contain some of the Allergens listed: Peanuts, Nuts, Cereals containing Gluten, Milk, Sesame, Soy/Soya, Sulphur Dioxide(Sulphites), Mustard,Celery, Lupin(EU Common).
+        </div>
+    </div>
+  </div>
+
+<br><br><br>
+<!-- ***** Footer Start ***** -->
+<footer>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-xs-12">
+              <div class="right-text-content">
+                      <ul class="social-icons">
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      </ul>
+              </div>
+          </div>
+          <div class="col-lg-4">
+             <h2 style="color: white">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ACE FOODS</h2>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+              <div class="left-text-content">
+                  <p>© 2018 AceFoods . All Rights Reserved. 
+                  
+                  <br>Designed and Devloped by Naskraft.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+    </body>
+    </html>
